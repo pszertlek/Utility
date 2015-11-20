@@ -16,7 +16,7 @@
 
 + (id)shareInstance
 {
-    static CRSA *_crsa = nil;
+    static TKRSAEncrypt *_crsa = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         _crsa = [[self alloc] init];
