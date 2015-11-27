@@ -19,6 +19,7 @@
 		F44510591BFF249400036568 /* TKRSAEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = F44510581BFF249400036568 /* TKRSAEncrypt.m */; };
 		F445105D1BFF24DE00036568 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = F445105B1BFF24DE00036568 /* NSData+Base64.m */; };
 		F44510601BFF251C00036568 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = F445105F1BFF251C00036568 /* NSString+Base64.m */; };
+		F46143B51C08650C00196223 /* TKLaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F46143B41C08650C00196223 /* TKLaunchImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		F445105B1BFF24DE00036568 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		F445105C1BFF24DE00036568 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
 		F445105F1BFF251C00036568 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		F46143B31C08650C00196223 /* TKLaunchImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKLaunchImage.h; sourceTree = "<group>"; };
+		F46143B41C08650C00196223 /* TKLaunchImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKLaunchImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,7 @@
 		F445102E1BFF165F00036568 /* TKUtility */ = {
 			isa = PBXGroup;
 			children = (
+				F46143B21C0864E000196223 /* 获取当前Launch */,
 				F445105E1BFF24E200036568 /* base64 */,
 				F44510561BFF181900036568 /* 字符串判断 */,
 				F44510551BFF181400036568 /* 加密 */,
@@ -150,6 +154,15 @@
 				F445105F1BFF251C00036568 /* NSString+Base64.m */,
 			);
 			name = base64;
+			sourceTree = "<group>";
+		};
+		F46143B21C0864E000196223 /* 获取当前Launch */ = {
+			isa = PBXGroup;
+			children = (
+				F46143B31C08650C00196223 /* TKLaunchImage.h */,
+				F46143B41C08650C00196223 /* TKLaunchImage.m */,
+			);
+			name = "获取当前Launch";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +293,7 @@
 				F44510541BFF16C600036568 /* TKInputValidator.m in Sources */,
 				F445105D1BFF24DE00036568 /* NSData+Base64.m in Sources */,
 				F44510601BFF251C00036568 /* NSString+Base64.m in Sources */,
+				F46143B51C08650C00196223 /* TKLaunchImage.m in Sources */,
 				F44510511BFF16AD00036568 /* CustomTextField.m in Sources */,
 				F44510341BFF165F00036568 /* AppDelegate.m in Sources */,
 				F44510311BFF165F00036568 /* main.m in Sources */,
