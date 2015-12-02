@@ -1,9 +1,9 @@
 //
-//  CustomTextField.m
-//  Strategy
+//  AppDelegate.h
+//  TKUtility
 //
-//  Created by Carlo Chung on 8/2/10.
-//  Copyright 2010 Carlo Chung. All rights reserved.
+//  Created by Coco on 15/11/20.
+//  Copyright © 2015年 pszertlek. All rights reserved.
 //
 
 #import "CustomTextField.h"

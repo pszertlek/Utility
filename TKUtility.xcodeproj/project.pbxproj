@@ -19,6 +19,14 @@
 		F44510591BFF249400036568 /* TKRSAEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = F44510581BFF249400036568 /* TKRSAEncrypt.m */; };
 		F445105D1BFF24DE00036568 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = F445105B1BFF24DE00036568 /* NSData+Base64.m */; };
 		F44510601BFF251C00036568 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = F445105F1BFF251C00036568 /* NSString+Base64.m */; };
+		F44664861C0E7ECA00B5C058 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F44664851C0E7ECA00B5C058 /* UIView+SDExtension.m */; };
+		F44664901C0E838B00B5C058 /* UIDevice+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F44664891C0E838B00B5C058 /* UIDevice+YYAdd.m */; };
+		F44664911C0E838B00B5C058 /* UIApplication+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F446648B1C0E838B00B5C058 /* UIApplication+YYAdd.m */; };
+		F44664921C0E838B00B5C058 /* UIFont+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F446648D1C0E838B00B5C058 /* UIFont+YYAdd.m */; };
+		F44664931C0E838B00B5C058 /* UIBezierPath+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F446648F1C0E838B00B5C058 /* UIBezierPath+YYAdd.m */; };
+		F44664961C0E83A400B5C058 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F44664951C0E83A400B5C058 /* UIView+YYAdd.m */; };
+		F446649B1C0E85F400B5C058 /* UIColor+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F44664981C0E85F400B5C058 /* UIColor+YYAdd.m */; };
+		F446649C1C0E85F400B5C058 /* UIImage+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F446649A1C0E85F400B5C058 /* UIImage+YYAdd.m */; };
 		F46143B51C08650C00196223 /* TKLaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F46143B41C08650C00196223 /* TKLaunchImage.m */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +54,22 @@
 		F445105B1BFF24DE00036568 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		F445105C1BFF24DE00036568 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
 		F445105F1BFF251C00036568 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		F44664841C0E7ECA00B5C058 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		F44664851C0E7ECA00B5C058 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		F44664881C0E838B00B5C058 /* UIDevice+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+YYAdd.h"; sourceTree = "<group>"; };
+		F44664891C0E838B00B5C058 /* UIDevice+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+YYAdd.m"; sourceTree = "<group>"; };
+		F446648A1C0E838B00B5C058 /* UIApplication+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+YYAdd.h"; sourceTree = "<group>"; };
+		F446648B1C0E838B00B5C058 /* UIApplication+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+YYAdd.m"; sourceTree = "<group>"; };
+		F446648C1C0E838B00B5C058 /* UIFont+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+YYAdd.h"; sourceTree = "<group>"; };
+		F446648D1C0E838B00B5C058 /* UIFont+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+YYAdd.m"; sourceTree = "<group>"; };
+		F446648E1C0E838B00B5C058 /* UIBezierPath+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+YYAdd.h"; sourceTree = "<group>"; };
+		F446648F1C0E838B00B5C058 /* UIBezierPath+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+YYAdd.m"; sourceTree = "<group>"; };
+		F44664941C0E83A400B5C058 /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		F44664951C0E83A400B5C058 /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
+		F44664971C0E85F400B5C058 /* UIColor+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YYAdd.h"; sourceTree = "<group>"; };
+		F44664981C0E85F400B5C058 /* UIColor+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YYAdd.m"; sourceTree = "<group>"; };
+		F44664991C0E85F400B5C058 /* UIImage+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YYAdd.h"; sourceTree = "<group>"; };
+		F446649A1C0E85F400B5C058 /* UIImage+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YYAdd.m"; sourceTree = "<group>"; };
 		F46143B31C08650C00196223 /* TKLaunchImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKLaunchImage.h; sourceTree = "<group>"; };
 		F46143B41C08650C00196223 /* TKLaunchImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKLaunchImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +124,8 @@
 		F445102E1BFF165F00036568 /* TKUtility */ = {
 			isa = PBXGroup;
 			children = (
+				F446649D1C0E860000B5C058 /* UIKit */,
+				F44664871C0E7ECE00B5C058 /* UIView */,
 				F46143B21C0864E000196223 /* 获取当前Launch */,
 				F445105E1BFF24E200036568 /* base64 */,
 				F44510561BFF181900036568 /* 字符串判断 */,
@@ -154,6 +180,36 @@
 				F445105F1BFF251C00036568 /* NSString+Base64.m */,
 			);
 			name = base64;
+			sourceTree = "<group>";
+		};
+		F44664871C0E7ECE00B5C058 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				F44664841C0E7ECA00B5C058 /* UIView+SDExtension.h */,
+				F44664851C0E7ECA00B5C058 /* UIView+SDExtension.m */,
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
+		F446649D1C0E860000B5C058 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F44664971C0E85F400B5C058 /* UIColor+YYAdd.h */,
+				F44664981C0E85F400B5C058 /* UIColor+YYAdd.m */,
+				F44664991C0E85F400B5C058 /* UIImage+YYAdd.h */,
+				F446649A1C0E85F400B5C058 /* UIImage+YYAdd.m */,
+				F44664941C0E83A400B5C058 /* UIView+YYAdd.h */,
+				F44664951C0E83A400B5C058 /* UIView+YYAdd.m */,
+				F44664881C0E838B00B5C058 /* UIDevice+YYAdd.h */,
+				F44664891C0E838B00B5C058 /* UIDevice+YYAdd.m */,
+				F446648A1C0E838B00B5C058 /* UIApplication+YYAdd.h */,
+				F446648B1C0E838B00B5C058 /* UIApplication+YYAdd.m */,
+				F446648C1C0E838B00B5C058 /* UIFont+YYAdd.h */,
+				F446648D1C0E838B00B5C058 /* UIFont+YYAdd.m */,
+				F446648E1C0E838B00B5C058 /* UIBezierPath+YYAdd.h */,
+				F446648F1C0E838B00B5C058 /* UIBezierPath+YYAdd.m */,
+			);
+			name = UIKit;
 			sourceTree = "<group>";
 		};
 		F46143B21C0864E000196223 /* 获取当前Launch */ = {
@@ -291,10 +347,18 @@
 				F44510591BFF249400036568 /* TKRSAEncrypt.m in Sources */,
 				F44510371BFF165F00036568 /* ViewController.m in Sources */,
 				F44510541BFF16C600036568 /* TKInputValidator.m in Sources */,
+				F44664901C0E838B00B5C058 /* UIDevice+YYAdd.m in Sources */,
+				F446649C1C0E85F400B5C058 /* UIImage+YYAdd.m in Sources */,
+				F44664911C0E838B00B5C058 /* UIApplication+YYAdd.m in Sources */,
+				F44664861C0E7ECA00B5C058 /* UIView+SDExtension.m in Sources */,
 				F445105D1BFF24DE00036568 /* NSData+Base64.m in Sources */,
 				F44510601BFF251C00036568 /* NSString+Base64.m in Sources */,
+				F44664961C0E83A400B5C058 /* UIView+YYAdd.m in Sources */,
 				F46143B51C08650C00196223 /* TKLaunchImage.m in Sources */,
+				F44664921C0E838B00B5C058 /* UIFont+YYAdd.m in Sources */,
 				F44510511BFF16AD00036568 /* CustomTextField.m in Sources */,
+				F44664931C0E838B00B5C058 /* UIBezierPath+YYAdd.m in Sources */,
+				F446649B1C0E85F400B5C058 /* UIColor+YYAdd.m in Sources */,
 				F44510341BFF165F00036568 /* AppDelegate.m in Sources */,
 				F44510311BFF165F00036568 /* main.m in Sources */,
 			);
